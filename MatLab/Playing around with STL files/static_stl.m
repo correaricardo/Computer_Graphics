@@ -4,7 +4,7 @@ clear all;
 clc;
 
 %- Let's storage the vertices in an array.
-[file,path] = uigetfile('*.stl');
+[file,path] = uigetfile('STL Files\*.stl');
 if isequal(file,0)
    disp('User selected Cancel');
 else
